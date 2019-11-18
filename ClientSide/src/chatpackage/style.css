@@ -1,0 +1,76 @@
+.leftmessage{ 
+    -fx-padding: 10 10 10 10; 
+    -fx-background-radius: 15 15 15 0;
+    -fx-border-radius: 15 15 15 0;
+    -fx-background-color: linear-gradient(to left, #ff612f,#dd2576);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.08),2,1.0,0.5,0.5);
+  
+}
+
+.rightmessage{
+     -fx-padding: 10 10 10 10;
+     -fx-background-radius: 15 15 0 15;
+     -fx-border-radius: 15 15 0 15;
+     -fx-background-color: linear-gradient(to left, #4776c6,#8e64e9);
+     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.08),2,1.0,0.5,0.5);
+
+}
+
+.jfx-text-area{
+    -fx-border-color: black transparent transparent transparent;
+}
+.jfx-text-area .scroll-bar:vertical{
+     -fx-pref-width: 10;
+     -fx-background-radius: 6;
+     -fx-border-radius: 6;
+     -fx-background-color: transparent;
+}
+.jfx-text-area .increment-button, .decrement-button{
+    -fx-opacity: 0;
+}
+
+.filebut{
+    -fx-pref-width: 90;
+}
+.sendbut{
+    -fx-pref-width: 90;
+}
+.jfx-list-view{
+    -fx-padding: 10 20 10 10;
+    -fx-background-color: transparent;
+    -fx-hbar-policy: never;
+}
+.jfx-list-view .scroll-bar:vertical{
+    -fx-pref-width: 10;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-background-color: transparent;
+}
+.jfx-list-view .increment-button, .decrement-button{
+    -fx-opacity: 0;
+}
+.jfx-list-view .thumb{
+    -fx-background-color: black;
+}
+.jfx-button{
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-background-color: white;
+}
+.leftcell{
+    -fx-text-fill: #ccccff;
+}
+.cell{
+     -fx-background: transparent;
+}
+.userlist{
+     -fx-font-size: 18; 
+     -fx-font-weight: bold;
+     -fx-text-fill: #009999;
+     -fx-border-insets: 0;
+     -fx-background-color: rgba(0,0,0,0.7);
+    
+}
+.hoverable:hover{
+   -fx-text-content: "Open File";  
+}
